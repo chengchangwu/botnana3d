@@ -7,7 +7,7 @@ running by a browser.
 
 ## Benchmarks
 
-Hardware: ASUS X401A
+ASUS X401A
 
 |benchmark|three.js  |kiss3d  |threejs(chrome)|kiss3d(chrome)|
 |---------|----------|--------|---------------|--------------|
