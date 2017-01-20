@@ -9,19 +9,19 @@ running by a browser.
 
 ASUS X401A
 
-|benchmark|three.js  |kiss3d  |threejs(chrome)|kiss3d(chrome)|
-|---------|----------|--------|---------------|--------------|
-|vector3  |2,465,392 |237     |               |              |
+|benchmark|three.js  |kiss3d  |
+|--------:|---------:|-------:|
+|vector3  |2,465,392 |237     |
 
 Amazon EC2 c4.xlarge
 
-|benchmark|three.js  |kiss3d  |threejs(chrome)|kiss3d(chrome)|
-|---------|----------|--------|---------------|--------------|
-|vector3  |1,718,691 |384     |               |              |
+|benchmark|three.js  |kiss3d  |kiss3d(asmjs) |
+|--------:|---------:|-------:|-------------:|
+|vector3  |1,718,691 |384     |196,367       |
 
 Botnana Control (AM3357 800MHz)
 
-|benchmark|three.js   |kiss3d   |threejs(chrome)|kiss3d(chrome)|
-|---------|-----------|---------|---------------|--------------|
-|vector3  |44,944,346 |5,541    |               |              |
+|benchmark|three.js   |kiss3d   |
+|--------:|----------:|--------:|
+|vector3  |44,944,346 |5,541    |
 
