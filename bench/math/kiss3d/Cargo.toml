@@ -1,0 +1,8 @@
+[package]
+name = "kiss3d"
+version = "0.1.0"
+authors = ["Sirius Wu <ccwu660601@gmail.com>"]
+
+[dependencies]
+time = "*"
+nalgebra = "*"
