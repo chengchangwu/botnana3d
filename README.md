@@ -7,6 +7,21 @@ running by a browser.
 
 ## Benchmarks
 
+Hardware: ASUS X401A
+
 |benchmark|three.js  |kiss3d  |threejs(chrome)|kiss3d(chrome)|
 |---------|----------|--------|---------------|--------------|
-|vector3  |2,465,392 |221,887 |               |              |
+|vector3  |2,465,392 |237     |               |              |
+
+Amazon EC2 c4.xlarge
+
+|benchmark|three.js  |kiss3d  |threejs(chrome)|kiss3d(chrome)|
+|---------|----------|--------|---------------|--------------|
+|vector3  |1,718,691 |384     |               |              |
+
+Botnana Control (AM3357 800MHz)
+
+|benchmark|three.js   |kiss3d   |threejs(chrome)|kiss3d(chrome)|
+|---------|-----------|---------|---------------|--------------|
+|vector3  |44,944,346 |5,541    |               |              |
+

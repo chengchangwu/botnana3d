@@ -7,4 +7,4 @@ for(i=0; i< 1000; i++) {
     v1 = v1.multiplyScalar(s);
 }
 var elapsed = process.hrtime(start);
-console.log("elapsed: " + elapsed[0] + "s " + elapsed[1] + "ns")
+console.log("elapsed: " + elapsed[0] + " s " + elapsed[1] + " ns")
