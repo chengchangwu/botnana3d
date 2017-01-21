@@ -1,8 +1,9 @@
 [package]
-name = "kiss3d"
+name = "botnana3d-kiss3d-bench"
 version = "0.1.0"
 authors = ["Sirius Wu <ccwu660601@gmail.com>"]
 
 [dependencies]
+kiss3d = "*"
 time = "*"
-nalgebra = "*"
+nalgebra = "0.9.0"

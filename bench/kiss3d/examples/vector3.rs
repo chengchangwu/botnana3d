@@ -10,10 +10,10 @@ fn main() {
     let mut v1 = zeros.clone();
     let v2 = ones.clone();
     let start = precise_time_ns();
-    for _i in 0..1000 {
+    for _i in 0..10000 {
         let s = v1.mul(v2);
         v1 = v1.mul(s);
     }
     let elapsed = precise_time_ns() - start;
-    println!("elapsed: {} ns", elapsed);
+    println!("elapsed: {} ms", (elapsed as f64)/1000.0);
 }
